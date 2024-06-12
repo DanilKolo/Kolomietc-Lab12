@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Форма реєстрації</h1>
+    <form action="submit_registration.php" method="post">
+        <!-- Поля введення будуть додані тут -->
+    </form>
+    <a href="IvanennkoLab10-1.htm">Повернутись на головну</a>
+</body>
+</html>
+<form action="submit_registration.php" method="post">
+    <label for="username">Ім'я користувача:</label>
+    <input type="text" id="username" name="username" required>
+</form>
+git add registration.html
+git commit -m "Додавання поля введення для імені користувача"
+<form action="submit_registration.php" method="post">
+    <label for="username">Ім'я користувача:</label>
+    <input type="text" id="username" name="username" required>
+    <label for="email">Електронна пошта:</label>
+    <input type="email" id="email" name="email" required>
+</form>
+git add registration.html
+git commit -m "Додавання поля введення для електронної пошти"
+<form action="submit_registration.php" method="post">
+    <label for="username">Ім'я користувача:</label>
+    <input type="text" id="username" name="username" required>
+    <label for="email">Електронна пошта:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="password">Пароль:</label>
+    <input type="password" id="password" name="password" required>
+</form>
+git add registration.html
+git commit -m "Додавання поля введення для пароля"
+git add registration.html
+git commit -m "Додавання поля підтвердження пароля"
+<p>Для реєстрації перейдіть за <a href="registration.html">цим посиланням</a>.</p>
+git add IvanennkoLab10-1.htm
+git commit -m "Додавання гіперпосилання на сторінку реєстрації"
+git checkout develop
+git merge task_1.12
+git push origin develop
